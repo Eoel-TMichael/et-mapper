@@ -1,0 +1,40 @@
+.Map {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: blanchedalmond;
+}
+
+.image {
+  transform: translate(-50%, -100%);
+}
+
+.mark {
+  width: 0px;
+  height: 0px;
+}
+.popup {
+  max-width: 300px;
+  opacity: 0.8;
+}
+
+.darkmode {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.darkmode button {
+  margin-right: 10px;
+  opacity: 0.6;
+  width: 100px;
+  height: 50px;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.darkmode :hover {
+  opacity: 1;
+  border: 50px solid "#ccc";
+}
